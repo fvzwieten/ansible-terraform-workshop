@@ -4,7 +4,7 @@
   become: true
   vars:
     facts_dir: "/etc/ansible/facts.d"
-    ansible_python_interpreter: /usr/bin/python3
+    #ansible_python_interpreter: /usr/bin/python3
     
   tasks:
     - name: Ensure the httpd package is installed
@@ -21,6 +21,7 @@
        - php-mysqlnd
        - php-cli
        - git
+       - python3-firewall
     
     - name: Configure firewall for access
       ansible.posix.firewalld:
