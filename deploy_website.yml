@@ -4,9 +4,6 @@
   hosts: role_webserver
   become: yes
 
-  vars:
-    git_base: https://github.com/TechXchangeNL
-
   tasks:
   - name: Git checkout
     ansible.builtin.git:
