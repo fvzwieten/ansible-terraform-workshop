@@ -96,7 +96,7 @@ For the apply_plan playbook:
 - Use the `Hashicorp Terraform Cloud` credential you made.
 
 For the other playbooks:
-- Use the `TechXchangeNL` inventory
+- Use the `TechXchangeNL` inventory with "Prompt on lauch" enabled
 - Use the `TechXchangeNL` machine credential
 
 ### API Token
