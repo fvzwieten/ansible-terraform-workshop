@@ -49,8 +49,8 @@ Apart from the already available machine credential, you need a few more..
   ```text
   hostname = "app.terraform.io"  
   organization = "TechXchangeNL"  
-  token = "YOURTOKENHERE"  
-  workspaces { name = "YOURWORKSPACE" }  
+  token = "YOURTERRAFORMTOKENHERE"  
+  workspaces { name = "YOURTERRAFORMWORKSPACE" }  
   ```
   For token, again, enter the token provided in a var in HCP
   For workspace enter the workspace you made in Terraform (you did...right?)
