@@ -100,7 +100,7 @@ For the other playbooks:
 - Use the `RHEL` machine credential
 
 ### API Token
-Part of the workshop is showing how you can run stuff _in_ AAP _from_ HashiCorp Terraform Cloud. For this, you need to provide a token from AAP to your HashiCorp Terraform Cloud workspace. You can create a token yourself using _API token_ under _Access Management_ in the menu. Choose write access. Copy/Paste the token somewhere, because it will only be shown once!
+Part of the workshop is showing how you can run stuff _in_ AAP _from_ HCP Terraform. For this, you need to provide a token from AAP to your HCP Terraform workspace. You can create a token yourself using _API token_ under _Access Management_ in the menu. Choose write access. Copy/Paste the token somewhere, because it will only be shown once!
 
 ## EDA building blocks
 The following building blocks are needed for the new Terraform Actions feature and are made under `Ansible Decisions` (aka EDA).
